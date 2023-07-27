@@ -264,7 +264,7 @@ export default function API(network, args) {
          */
         logToServer(parameters) {
             const commandName = 'Log';
-            return performPOSTRequest(commandName, parameters, undefined, true);
+            return performPOSTRequest(commandName, parameters);
         },
 
         /**
